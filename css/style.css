@@ -1,0 +1,67 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+:root{
+    --pink:#e84393;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-brand span{
+    color: var(--pink);
+}
+.navbar .navbar-nav .nav-link:hover , footer .row .item ul li a:hover{
+    color: var(--pink) !important;
+}
+.home{
+    height: 100vh;
+    background-image: url(../images/home-bg.jpg) ;
+    background-size: cover;
+    background-position: center center;
+}
+.h3-color , .title h2 , .title2 p , .end-footer , .review-icon{
+    color: var(--pink);
+}
+.btn:hover{
+    background-color: var(--pink) !important;
+}
+.title{
+    background: rgba(255, 51, 153,.05);
+}
+.about-video h3{
+    mix-blend-mode: screen;
+}
+.about-video{
+    border: 10px solid #fff;
+}
+.title2 p{
+    font-size: x-large;
+}
+.title2 span{
+    color: gray;
+    font-size: small;
+    text-decoration: line-through;
+}
+.item{
+    text-decoration: none;
+    display: block;
+}
+.p-btn{
+    background-color: var(--pink) !important;
+}
+.p-btn:hover{
+    background-color:dimgray !important;
+}
+.p-item:hover .p-hover{
+    display: block !important;
+}
+.carousel-indicators button{
+    background-color: var(--pink) !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
